@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="namakendaraan"></h1> -->
+    <h1 id="namaMotor"></h1>
+    <button id="printGambarMotor" onclick="tampilkanGambarMotor()"></button>
+    <div id="tempatGambarMotor"></div>
+
+
+    <script>
+        document.getElementById('namaMotor').innerHTML = 'Motor Gede';
+        document.getElementById('printGambarMotor').innerHTML = 'Print Gambar Motor';
+
+        // Deklarasi Function
+        function tampilkanGambarMotor() {
+            document.getElementById('tempatGambarMotor').innerHTML += '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMSLaOOw76bY88Yj_k985zoYG5595mtWVZ4g&usqp=CAU">'
+        }
+
+        // console.log('Hello World');
+        // window.alert('Hello World');
+        // var hello = 'Hello World';
+        // document.write(hello);
+        // document.getElementById('namakendaraan').innerHTML = ''
+    </script>
+</body>
+</html>

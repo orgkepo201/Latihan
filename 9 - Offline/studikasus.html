@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input id="bil1" type="number" value="" onchange="hitung()"> 
+    <br>
+   +
+    <br>
+    <input id="bil2" type="number" value="" onchange="hitung()">
+    <br>
+    =
+    <br>
+    <input id="hasil" type="number">
+
+    <script>
+        function hitung() {
+            let bil1 = document.getElementById('bil1');
+            let bil2 = document.getElementById('bil2');
+            let hasil = document.getElementById('hasil');
+
+            document.getElementById('hasil').value = Number(bil1.value) + Number(bil2.value)
+
+
+
+
+        }
+    </script>
+
+</body>
+</html>
