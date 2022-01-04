@@ -1,0 +1,33 @@
+#bogor {
+  padding: 20px;
+  background-color: pink;
+}
+
+#bogor h1 {
+  color: red;
+}
+
+#bogor .citayam h2 {
+  color: green;
+}
+
+#bogor .citayam h2:hover {
+  color: blue;
+}
+
+#bogor .citayam p {
+  font-size: 14px;
+}
+
+#bogor .citayam p:hover {
+  font-size: 20px;
+}
+
+#bogor .cariu h2 {
+  text-decoration: underline;
+}
+
+#bogor .cariu h2:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=latihan.css.map */

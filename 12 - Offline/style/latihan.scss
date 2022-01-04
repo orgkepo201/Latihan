@@ -1,0 +1,48 @@
+// body {
+//     background-color: grey;
+//     h1 {
+//         color: cyan;
+//     }
+//     h2 {
+//         color: blue;
+//     }
+//     p {
+//         color: yellow;
+//     }
+// }
+
+#bogor {
+    padding: 20px;
+    background-color: pink;
+    h1 {
+        color: red; 
+    }
+
+    .citayam {
+        h2 {
+            color: green;
+            &:hover {
+                color: blue;
+            }
+        }
+        p {
+            font-size: 14px;
+            &:hover {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .cariu {
+        h2 {
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#depok {
+    
+}
